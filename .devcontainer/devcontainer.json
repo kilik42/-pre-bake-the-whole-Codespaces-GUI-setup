@@ -1,0 +1,14 @@
+{
+  "name": "Python GUI Codespace (noVNC)",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {},
+  "forwardPorts": [6080],
+  "portsAttributes": {
+    "6080": {
+      "label": "noVNC Desktop",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/postCreate.sh",
+  "postStartCommand": "bash .devcontainer/postStart.sh"
+}
