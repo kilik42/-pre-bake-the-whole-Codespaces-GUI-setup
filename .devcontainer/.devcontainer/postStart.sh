@@ -62,3 +62,9 @@ echo ""
 echo "✅ GUI environment ready."
 echo "➡️ Open the forwarded port $NOVNC_PORT in Codespaces to see the desktop."
 echo "➡️ In any terminal:  export DISPLAY=$DISPLAY_NUM  (usually already set)"
+
+
+
+
+#Make it executable:
+chmod +x .devcontainer/postStart.sh
